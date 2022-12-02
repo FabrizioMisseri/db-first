@@ -1,0 +1,15 @@
+id                         INT                PRIMARY KEY, AUTO INCREMENT
+car manufacturers          VARCHAR(30)        NOTNULl, INDEX
+car model                  VARCHAR(50)        NOTNULL
+car power supply           VARCHAR(15)        NOTNULL       
+car trasmission            VARCHAR(20)        NOTNULL
+car price dollar           DECIMAL(10, 2)     NOTNULL 
+car km travelled           MEDIUMINT          NOTNULL
+car img path               VARCHAR(255)       NOTNULL                           
+car year production        YEAR               NOTNULL
+car description            TEXT               NULL
+car engine capacity        SMALLINT           NULL
+car horses power           SMALLINT           NULL
+car color                  VARCHAR(50)        NULL 
+car weight kg              SMALLINT           NULL
+car height cm              SMALLINT           NULL
